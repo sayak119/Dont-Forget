@@ -1,0 +1,99 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "don't forget",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "IntentContinue",
+                    "slots": [],
+                    "samples": [
+                        "positive",
+                        "obviously yes",
+                        "affirmative",
+                        "i think so",
+                        "done",
+                        "of course",
+                        "sure",
+                        "definitely",
+                        "yeah",
+                        "yup",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "IntentStop",
+                    "slots": [],
+                    "samples": [
+                        "sorry about that",
+                        "i don't think so",
+                        "negative",
+                        "crap",
+                        "oops",
+                        "not at all",
+                        "not yet",
+                        "i forgot",
+                        "sorry forgot that",
+                        "nope",
+                        "no"
+                    ]
+                },
+                {
+                    "name": "IntentConfused",
+                    "slots": [],
+                    "samples": [
+                        "please explain",
+                        "explain",
+                        "i don't know",
+                        "maybe",
+                        "what are you talking about",
+                        "elaborate",
+                        "huh",
+                        "i don't understand",
+                        "i don't get it",
+                        "what do you mean",
+                        "i am not completey sure",
+                        "i am not sure",
+                        "not completely sure",
+                        "not sure"
+                    ]
+                },
+                {
+                    "name": "IntentBypass",
+                    "slots": [],
+                    "samples": [
+                        "for a checklist",
+                        "for my checklist",
+                        "whether i can leave",
+                        "whether i am ready",
+                        "whether i am ready to go",
+                        "if i am ready",
+                        "if i can leave",
+                        "if i am ready to go",
+                        "can i leave",
+                        "am i ready",
+                        "am i ready to go"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
